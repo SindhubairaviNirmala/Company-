@@ -180,10 +180,11 @@ footer{
     nav{
         background-color:rgb(21, 21, 245) ;
         border: none;
-        border-radius: 10px 0 10px 10px;
+        border-radius: 15px 0 15px 15px;
         padding: 10px;
         margin-left: 20px;
-        width: 220px;
+        margin-top: 2px;
+        width: 200px;
         height: 220px;
         display: none;
     }
