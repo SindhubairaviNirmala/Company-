@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family:'Times New Roman', Times, serif;
+    font-family: "Poppins", sans-serif;
 }
 
 #icon{ 
@@ -64,18 +64,18 @@ h1{
 }
 span{
     font-size: 90px;
-    color: rgb(6, 6, 163);
+    color: rgb(21, 21, 245);
 }
 #home p{
     font-size: 16px;
-    color: rgb(15, 15, 199);
+    color: rgb(21, 21, 245);
     font-style: italic;
     text-align: center;
 }
 
 button{
     padding: 10px;
-    background-color:rgb(15, 15, 199) ;
+    background-color:rgb(21, 21, 245);
     border: none;
     border-radius: 5px;
     margin: 15px 15px 15px 60px;
@@ -100,7 +100,7 @@ button a{
 h2{
     font-size: 40px;
     padding: 15px;
-    color:rgb(6, 6, 163) ;  
+    color:rgb(21, 21, 245) ;  
  }
  #about p{
     text-indent: 20px;
@@ -178,13 +178,12 @@ footer{
         margin-bottom: 5px;
     }
     nav{
-        background-color:rgb(7, 7, 178) ;
+        background-color:rgb(21, 21, 245) ;
         border: none;
-        border-radius: 15px 0 15px 15px;
+        border-radius: 10px 0 10px 10px;
         padding: 10px;
-        margin-left: 40px;
-        margin-top: 20px;
-        width: 200px;
+        margin-left: 20px;
+        width: 220px;
         height: 220px;
         display: none;
     }
@@ -219,8 +218,8 @@ footer{
         display: block;
     }
     .design-text{
-        width: 92%;
-        margin-left: 28px;
+        width: 91%;
+        margin-left: 22px;
         font-size: 15px;
         line-height: 25px;
     }
@@ -231,7 +230,7 @@ footer{
         display: block;
     }
     .work-text{
-        width: 92%;
+        width: 91%;
         font-size: 15px;
         line-height: 25px;
         margin-left: 20px;
