@@ -182,7 +182,7 @@ footer{
         border: none;
         border-radius: 15px 0 15px 15px;
         padding: 10px;
-        margin-left: 80px;
+        margin-left: 40px;
         margin-top: 20px;
         width: 200px;
         height: 220px;
@@ -211,7 +211,7 @@ footer{
     .about-text{
         width: 92%;
         font-size: 15px;
-        line-height: 20px;
+        line-height: 25px;
         margin-left: 16px;
         
     }
@@ -220,9 +220,9 @@ footer{
     }
     .design-text{
         width: 92%;
-        margin-left: 32px;
+        margin-left: 28px;
         font-size: 15px;
-        line-height: 20px;
+        line-height: 25px;
     }
     #design img{
         width: 80%;
@@ -233,8 +233,8 @@ footer{
     .work-text{
         width: 92%;
         font-size: 15px;
-        line-height: 20px;
-        margin-left: 25px;
+        line-height: 25px;
+        margin-left: 20px;
     }
     #work img{
         margin-left:40px ;
