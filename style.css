@@ -182,10 +182,10 @@ footer{
         border: none;
         border-radius: 15px 0 15px 15px;
         padding: 10px;
-        margin-left: 140px;
+        margin-left: 110px;
         margin-top: 20px;
-        width: 170px;
-        height: 200px;
+        width: 200px;
+        height: 220px;
         display: none;
     }
     nav ul li a{
@@ -200,25 +200,30 @@ footer{
         text-align: left;
     }
     h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     h1 span{
-        font-size: 50px;
+        font-size: 45px;
     }
     #about{
         display: block;
     }
     .about-text{
-        width: 85%;
-        padding: 2px;
+        width: 92%;
+        font-size: 15px;
+        line-height: 19px;
+        margin-left: 16px;
+        
     }
     #design{
         display: block;
     }
     .design-text{
-        width: 85%;
+        width: 92%;
         padding: 2px;
         margin-left: 32px;
+        font-size: 15px;
+        line-height: 17px;
     }
     #design img{
         width: 80%;
@@ -227,8 +232,26 @@ footer{
         display: block;
     }
     .work-text{
-        width: 85%;
+        width: 92%;
         padding: 2px;
+        font-size: 15px;
+        line-height: 17px;
+        margin-left: 25px;
+    }
+    #work img{
+        margin-left:40px ;
+    }
+    #about img{
+        margin-left:40px ;
+    }
+    h4{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    #home p{
+        font-size: 10px;
     }
 }
 /* #about{ 
