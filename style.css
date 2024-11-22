@@ -178,11 +178,11 @@ footer{
         margin-bottom: 5px;
     }
     nav{
-        background-color:rgb(6, 6, 163) ;
+        background-color:rgb(7, 7, 178) ;
         border: none;
         border-radius: 15px 0 15px 15px;
         padding: 10px;
-        margin-left: 110px;
+        margin-left: 80px;
         margin-top: 20px;
         width: 200px;
         height: 220px;
@@ -211,7 +211,7 @@ footer{
     .about-text{
         width: 92%;
         font-size: 15px;
-        line-height: 19px;
+        line-height: 20px;
         margin-left: 16px;
         
     }
@@ -220,10 +220,9 @@ footer{
     }
     .design-text{
         width: 92%;
-        padding: 2px;
         margin-left: 32px;
         font-size: 15px;
-        line-height: 17px;
+        line-height: 20px;
     }
     #design img{
         width: 80%;
@@ -233,9 +232,8 @@ footer{
     }
     .work-text{
         width: 92%;
-        padding: 2px;
         font-size: 15px;
-        line-height: 17px;
+        line-height: 20px;
         margin-left: 25px;
     }
     #work img{
@@ -252,7 +250,7 @@ footer{
     }
     #home p{
         font-size: 10px;
-        
+
     }
 }
 /* #about{ 
