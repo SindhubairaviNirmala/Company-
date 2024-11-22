@@ -3,10 +3,10 @@ var navbar=document.getElementById("navbar")
 var bar2=document.getElementById("menu")
 
 function menu(){
-    if(navbar.style.display=="none"){
-       navbar.style.display="block"
+    if(navbar.style.display=="block"){
+       navbar.style.display="none"
     }
     else{
-        navbar.style.display="none"
+        navbar.style.display="block"
     }    
 }
