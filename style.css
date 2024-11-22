@@ -85,7 +85,7 @@ button a{
     text-decoration: none;
     color: whitesmoke;
 }
-#about{
+.about{
     margin-top: 20px;
     display: flex;
     padding: 10px;
@@ -103,12 +103,12 @@ h2{
     padding: 15px;
     color:rgb(21, 21, 245) ;  
  }
- #about p{
+ .about p{
     text-indent: 20px;
     margin-top: 10px;
  }
 
- #about img{
+ .about img{
     width: 83%;
     height: 100%;
     margin-left: 80px;
@@ -206,7 +206,7 @@ footer{
     h1 span{
         font-size: 45px;
     }
-    #about{
+    .about{
         display: block;
     }
     .about-text{
@@ -240,7 +240,7 @@ footer{
     #work img{
         margin-left:40px ;
     }
-    #about img{
+    .about img{
         margin-left:40px ;
     }
     h4{
