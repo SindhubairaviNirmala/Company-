@@ -21,143 +21,137 @@ img{
     
 }
 
-
-header{ 
+#header{ 
     display: flex;
     position: fixed;
     z-index: 99;
     width: 100%;
     height: 100px;
-    margin-top: -100px;
+    margin-top: -120px;
     background-color: white;
     border-bottom: solid 1px rgb(220, 218, 218);
  } 
 
- 
-nav{
+ .navbar{
     display: block;
 }
-nav ul{
+.navbar ul{
     display: flex;
     margin-top: 30px;
     margin-left: 300px;
 }    
-nav ul li{
+.navbar ul li{
     padding: 20px;
     list-style: none;
     text-align: center;
 }
 
-nav ul li a{
+.navbar ul li a{
     color: black;
     text-decoration: none;
     font-size: 17px;
     
 }
 
-nav ul li a:hover{
+.navbar ul li a:hover{
     font-size:21px; 
     transition: 0.5s;
 }
+main{
+    margin-top: 120px;
+}
+#title{
+    display: flex;
+    margin-left: 320px;
+}
 h1{
-    font-size: 55px;
-    text-align: center;
-    margin-top: 100px;
-}
-span{
-    font-size: 90px;
     color: rgb(21, 21, 245);
+    font-size: 50px;
 }
-#home p{
-    font-size: 16px;
-    color: rgb(21, 21, 245);
-    font-style: italic;
-    text-align: center;
-}
-
 button{
     padding: 10px;
     background-color:rgb(21, 21, 245);
+    color: whitesmoke;
     border: none;
     border-radius: 5px;
     margin-top: 20px;
+    width: 120px;
 }
 
 button a{
     text-decoration: none;
     color: whitesmoke;
 }
-.about{
-    margin-top: 20px;
+#object{
     display: flex;
-    padding: 10px;
 }
 
-.about-text{
-    width: 800px;
+#management{
+    border: solid 2px  rgb(21, 21, 245);
+    box-shadow:  rgb(188, 188, 230) 1px 1px 4px 4px ;
+    border-radius: 5px;
+    padding: 25px;
+    margin:25px 25px 25px 25px;
     text-align: justify;
-    line-height: 28px;
-    margin-left: 40px;
+    line-height: 25px;
 }
-h2{
-    font-size: 25px;
-    padding: 15px;
-    color:rgb(21, 21, 245) ;  
- }
- .about p{
-    text-indent: 20px;
-    margin-top: 10px;
- }
-
- .about img{
-    width: 83%;
-    height: 100%;
-    margin-left: 80px;
-    
- }
-#design{
-    
-    display: flex;
-    padding: 10px;
-}
-
-#design img{
-    width: 59%;
-    height: 100%;
-    margin-left: 30px;
-}
-.design-text{
-    width: 800px;
-    text-align: justify;
-    margin-right: 40px;
-    line-height: 28px;
-}
-h4{
+h3{
+    color: rgb(21, 21, 245);
+    text-align: center;
     font-size: 30px;
     padding: 10px;
 }
-#work{
-    
+h5{
+    text-align: center
+}
+#one{
     display: flex;
-    padding: 10px;
 }
-#work img{
-    width: 80%;
-    height: 100%;
-    margin-left: 80px;
+#apply{
+    
+    box-shadow:  rgb(168, 168, 170) 3px 3px 5px 5px ;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 25px;
+    margin:25px 25px 25px 25px;
+    text-align: center;
+    line-height: 30px;
 }
-.work-text{
-    width: 800px;
-    text-align: justify;
-    margin-left: 40px;
-    line-height: 28px;
+#apply h2{
+    color: rgb(21, 21, 245);
 }
-#work h2{
-    line-height: 50px;
+#applying{
+    display: flex;
 }
+#applying img{
+     width: 600px;
+     height: 350px;
+}
+#form label{
+    display: flex;
+    margin: 30px 0px 0px 75px;
+}
+#email,#name{
+    border: none;
+    border-bottom: solid 2px black;
+    background-color: gainsboro;
+    
+}
+#email,#name:focus{
+    outline: none;
+}
+input{
+    margin-left: 5px;
+    font-size: 12px;
+}
+#hide{
+    display: none;
+}
+
 footer{
     padding: 15px;
 }
+
 
 /*mobile responsive design*/
 @media(max-width:768px){
@@ -177,7 +171,7 @@ footer{
         background-color: #333;
         margin-bottom: 5px;
     }
-    nav{
+    .navbar{
         background-color:rgb(21, 21, 245) ;
         border: none;
         border-radius: 15px 0 15px 15px;
@@ -188,68 +182,31 @@ footer{
         height: 220px;
         display: none;
     }
-    nav ul li a{
+    .navbar ul li a{
         color: white;
     }
-    nav ul{
+    .navbar ul{
         display: block;
         margin-left: 5px;
     }
-    nav ul li{
+    .navbar ul li{
         padding: 10px;
         text-align: left;
     }
-    h1{
-        font-size: 25px;
-    }
-    h1 span{
-        font-size: 45px;
-    }
-    .about{
-        display: block;
-    }
-    .about-text{
-        width: 92%;
-        font-size: 15px;
-        line-height: 25px;
-        margin-left: 16px;
-        
-    }
-    #design{
-        display: block;
-    }
-    .design-text{
-        width: 91%;
-        margin-left: 22px;
-        font-size: 15px;
-        line-height: 25px;
-    }
-    #design img{
-        width: 80%;
-    }
-    #work{
-        display: block;
-    }
-    .work-text{
-        width: 91%;
-        font-size: 15px;
-        line-height: 25px;
+    #title{
         margin-left: 20px;
     }
-    #work img{
-        margin-left:40px ;
+    h1{
+        font-size: 40px;
     }
-    .about img{
-        margin-left:40px ;
+    #one{
+        display: block;
     }
-    h4{
-        font-size: 25px;
+    #applying{
+        display: block;
     }
-    h2{
-        font-size: 35px;
+    #applying img{
+        width: 90%;
+        height: 80%;
     }
-    #home p{
-        font-size: 10px;
-
-    }
-}
+}    

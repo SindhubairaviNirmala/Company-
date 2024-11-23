@@ -10,3 +10,11 @@ function menu(){
         navbar.style.display="block"
     }    
 }
+
+var first=document.getElementById("first")
+var hide=document.getElementById("hide")
+
+function show(){
+        hide.style.display="block"
+        first.style.display="none"
+} 
