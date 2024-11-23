@@ -195,6 +195,10 @@ footer{
     #title{
         margin-left: 20px;
     }
+    #title{
+        width:40px;
+        height:40px;
+    }
     h1{
         font-size: 40px;
     }
